@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Nhập  đáy  nhỏ  dn:"
+            android:textColor="#0000FF"  />
+        <EditText
+            android:id="@+id/dn"
+            android:textColor="#0000FF"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Nhập  đáy  lớn  dl:"
+            android:textColor="#0000FF"/>
+        <EditText
+            android:id="@+id/dl"
+            android:textColor="#0000FF"  />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Nhập  chiều  cao  c:"
+            android:textColor="#0000FF"/>
+        <EditText
+            android:id="@+id/cc"
+            android:textColor="#0000FF"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/Sol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Press  Answer  Button"  />
+
+    <Button
+        android:id="@+id/ToChunhat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CHU  NHAT"
+        android:textColor="#FFFFFF"
+        android:background="#FF0000"
+        />
+
+</TableLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Nhập  chiều  rộng  cr:"
+            android:textColor="#FF0000"/>
+        <EditText
+            android:id="@+id/canha"
+            android:textColor="#FF0000"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_gravity="left"
+            android:text="Nhập  chiều  dài  cd:"
+            android:textColor="#FF0000"/>
+        <EditText
+            android:id="@+id/canhb"
+            android:textColor="#FF0000"/>
+    </TableRow>
+    <Button
+        android:id="@+id/Sol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Press  Answer  Button"  />
+
+    <Button
+        android:id="@+id/ToHinhthang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HINH  THANG"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"
+        />
+
+</TableLayout>
